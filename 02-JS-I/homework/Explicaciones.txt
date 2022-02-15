@@ -1,0 +1,24 @@
+Variables:
+----------
+son cajas que te dejan guardar diferentes cosas, letras, numeros, palabras completas. podes o no decir que vas a guardar en la caja, si decis que la caja tiene numeros, solamente va a tener numeros, no podrias meter letras.
+_____________________________________._____________________________________
+
+Strings:
+--------
+un "string" son muchas letras juntas ( osea, una palabra ).
+_____________________________________._____________________________________
+
+Funciones:
+----------
+las funciones permiten realizar una lista de acciones, requieren una cantidad de datos (las variables)que la funcion pide con los cuales realizar las acciones ( los denominamos "argumentos" ).luego de realizar las acciones con esos argumentos, la fucnion dara un resultado ( por ejemplo una letra o un numero) lo cual se denomina por la palabra "return".
+_____________________________________._____________________________________
+
+Declaraiones "if":
+------------------
+estas declaraciones se usan para separar posibilidades: if " prealiza esta accion" else " realiza otra", viene del el lenguaje ingles y se traduciria: si es asi " realiza esta accion" de otra forma " realiza otra".
+_____________________________________._____________________________________
+
+Valores booleanos:
+------------------
+los valores booleanos son lo que usamos en programacion para decir que una cosa es mentira  (false) o verdad (true), por ejemplo: 11 es mas grande que 10=  true, 15<1 = false.
+_____________________________________._____________________________________
