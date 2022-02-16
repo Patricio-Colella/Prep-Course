@@ -29,6 +29,7 @@ function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
   return str;
+  
 }
 
 function suma(x, y) {

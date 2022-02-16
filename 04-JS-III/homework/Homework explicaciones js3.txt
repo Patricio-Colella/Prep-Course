@@ -1,0 +1,9 @@
+Array:
+------
+
+un array (arreglo en español) es una variable que puede contener muchos datos diferentes 
+del mismo tipo ( ej [1,2,3] ). se definde de la siguiente manera: nombre de la variable+simbolo de corchetes (arreglo1[]).
+cada uno de los elementos dentro del arreglo tiene su indice, empezando del primero de izquiera a derecha cual indice es 0, y se puede acceder a cada uno de ellos ( ej arreglo1[0],arreglo[4]).
+los arreglos tienen una cantidad creciente de espacio, no hace falta decir cuantos indices puede contener, eso solo esta limitado por la memoria de la maquina.
+se puede agregar elementos tanto al principio como al final (arreglo.push, arreglo. unshift, respectivamente) tambien se puede eliminar el ultimo elemento agregado ( .pop, que podria traducirse como reventar)
+los strings, que son cadenas de caracteres pueden tratarse como arreglos, ej si a el string "str1", que contiene la palabra "hola", le pedimos el "str1[0]" ( su primer indice) nos devolvera el caracter ( letra) "h".

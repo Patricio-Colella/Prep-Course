@@ -1,0 +1,22 @@
+Iteracion For:
+-------------
+iterar significia repetir algo una cantidad definida de veces. la iteracion "for" para iterar una accion.
+se define una variable,y el for repetira la accion mientras esa variable cumpla esa condicion,variable la 
+cual despues de cada iteracion su valor se modifica, 
+ejemplo: for (i=0;i<10;i++)
+se separan las parte con punto y coma, la primera parte (i=0) dice que la variable i empieza en 0, la
+segunda (i<10) dice que la accion se realizara mientras que i sea menor a 10, y la tercera (i++) dice
+que el valor de i aumenta en 1 al final de la iteracion, para usar ese valor en la siguiente iteracion
+
+________________________________________________________.________________________________________________________
+
+Simbolos &&,||,!:
+-----------------
+estos simbolos realizan acciones sencillas en elementos booleanos(true-false):
+&&: es lo que la computadora entiende por "y" a la hora de realizar acciones,para comprobar si una sentencia
+y la otra (o otras) es verdadera (sentencia1 && sentencia2) si las dos son verdaderas el "&&" devolvera 
+true, si una de las dos es falsa devolvera false;
+||: esto representaria el "o", osea si una sentencia o la otra es verdadera, mientras que una de las dos sea 
+verdadera resultara en un true, si las dos son falsas sera false;
+!: niega cualquier valor booleano,si se junta con un true dara como resultado false, y en caso contrario, 
+un false, dara como resultado true;
