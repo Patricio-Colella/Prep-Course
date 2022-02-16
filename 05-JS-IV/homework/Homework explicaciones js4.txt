@@ -1,0 +1,55 @@
+objetos:
+--------
+los objetos son un tipo de dato que pueden contener variables de diferente tipo (booleano,caracter,
+numero) en su interior.llos valores de las variables dentro de un objeto son asignadas
+a una clave del objeto las cuales son designadas dentro del objeto con el fin de guardar 
+esas variables formando las "propiedades"( dentro del objeto-> x:unnumero, y:unvalorbooleano, z:unstring).
+para acceder a las propiedades del objeto se usa un punto, ej: el objeto se llamara obj, y
+tiene una propiedad nombre="jose", entonces para acceder usaremos obj.nombre, lo cual dara
+como respuesta "jose".
+
+____________________________________________.____________________________________________
+
+dentro de los objetos se pueden encontrar variables,otros objetos, o funciones, pero dentro
+de os objetos se denominan "Metodos".
+se definen igual que las propiedades pero en lugar de asignar un valor, se asigna una
+funcion, aunque esta no tendra nombre antes del parentesis como las funciones comunes ej:
+metododeestafuncion: function(){...}
+para acceder a las propiedades de un objeto dentro de un metodo se usa el termino "this"
+
+en una funcion->function f(obj){
+		return obj.nombre;
+		}
+
+en un metodo->fundemetodo: function f(){
+		           return this.nombre;
+			   }
+____________________________________________.____________________________________________
+
+bucle "for...in":
+----------------
+
+un bucle for in es una iteracion, al igual que el for, la cual recorre todas las claves de
+las propiedades del objeto asignandoselas a una variable para utilizarlas con algun fin (
+por ejemplo mostrar las claves de todas las propiedades). 
+
+supongamos que solo hay una propiedad: nombre
+
+for(let clave in objeto)
+console.log(clave)
+
+esto resultara en "nombre"
+
+____________________________________________.____________________________________________
+
+notacion de puntos vs notacion de corchetes:
+-------------------------------------------
+
+la notacion de puntos se usa para acceder a las propiedades de los objetos mediante su clave
+obj.clave dando como resultado el valor de la clave, o tambien se puede usar como las 
+funciones para llamar a los metodos de un objeto  obj.metododeobj()<-argumentos si es que los requiere
+
+la notacionde corchetes se usa para llamar a las propiedades de un objeto mediante variables 
+o constantes, transformando lo que este adentro en un .unstring
+si se trata de una constante obj["unstring"], llamando a la clave unstring de obj, es decir 
+obj.unstring, y si es una variable obj[variable], si variable tiene valor de "nombre", entonces es igual que obj.nombre
