@@ -1,0 +1,11 @@
+Prototype:
+----------
+
+la palabra clave "prototype"(prototipo) se usa para crear metodos para un objeto de una clase especifica ( ejemplo: String.prototype.haceralgo),este ejemplo permite que los strings usen un "metodo" llamado haceralgo, pero no crea ese metodo cada vez que se define un string, por lo que nos permite ahorrar memoria de la maquina.
+
+_____________________________________________._____________________________________________
+
+Constructores de clase: 
+-----------------------
+
+un constructror de clase es una funcion utilizada para no crear objetos por separado, este creo una "plantilla" de una clase, en forma de funcion, la cual puede ser utilizadapara crear objetos de esa clase, adoptando todas sus caracteristicas.
