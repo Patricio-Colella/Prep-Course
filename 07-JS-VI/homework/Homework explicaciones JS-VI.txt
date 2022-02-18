@@ -1,0 +1,21 @@
+Funciones Callback:
+-------------------
+
+las funciones callback son utilizadas para llamar a una funcion dentro de otra(dentro de la
+cual la primera tendra el nombre clave "cb", pasandola como parametro, esto permite que al 
+definir funciones, podamos utilizarlas dentro de otras y no tener que reescribir la funcion.
+
+ejemplo: funtion f1(limite){
+		for(let i=0;i<limite;i++){
+			console.log(i);
+		}
+	}
+
+	function f2(cb,unstring){
+		
+		var str="hola";
+		cb(unstring.length);
+		cb(str.length);
+	}
+	
+	f2(f1,"chau");
